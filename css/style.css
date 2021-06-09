@@ -1,0 +1,71 @@
+body {
+    background: #ffffff;  /* fallback for old browsers */
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.logo {
+  width: 40%;
+  /* box-sizing: border-box; */
+  /* display:inline-block; */
+  /* padding: 10px 0px 0px 15px; */
+
+}
+
+nav {
+  /* display: inline-block; */
+  width: 100%;
+  /* padding-right: 60px; */
+  /* box-sizing: border-box; */
+  /* vertical-align: bottom; */
+}
+
+nav ul li{
+    padding-right: 100px;
+} 
+
+
+    
+    
+  /* Style the search field */
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: rgb(172, 165, 165);
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+
+input[type=text] {
+    width: 100px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  /* When the input field gets focus, change its width to 100% */
+  input[type=text]:focus {
+    width: 100%;
+  }
+
