@@ -1,71 +1,66 @@
-body {
-    background: #ffffff;  /* fallback for old browsers */
-    font-family: 'Ubuntu', sans-serif;
+.header .columna1 {
+  padding: 0 40px 0d 30px;
+  /* display: flex; */
+  justify-content: space-between;
+  /* border-color: black;
+  border-style: ridge; */
 }
 
-
-.container{
-    display: flex;
-    justify-content: space-between;
-    
-
+.nav-link{
+  margin-top: 10px;
+}
+.input-group{
+  margin-top: 10px;
 }
 
-.logo {
-  width: 40%;
-  /* box-sizing: border-box; */
-  /* display:inline-block; */
-  /* padding: 10px 0px 0px 15px; */
-
+.header .columna2 {
+  display: flex;
+  padding-top: 25px;
+  justify-content: space-between;
+  /* border-color: black;
+  border-style: ridge; */
+}
+.columna1 .logotipo {
+  margin-top: 10px;
+  width: 30px;
+  height: 30px;
 }
 
-nav {
-  /* display: inline-block; */
-  width: 100%;
-  /* padding-right: 60px; */
-  /* box-sizing: border-box; */
-  /* vertical-align: bottom; */
+.columna2 .notificacion{
+  width: 30px;
+  height: 30px;
 }
 
-nav ul li{
-    padding-right: 100px;
+.columna2 .mensaje{
+  width: 30px;
+  height: 30px;
+}
+
+.columna2 .usuario{
+  width: 30px;
+  height: 30px;
+}
+
+.content{
+  display: flex;
+  justify-content: right;
+  /* display: flex; */
+  margin-top: 20px;
+  border-style: ridge;
+}
+
+.row{
+  justify-content: center;
+}
+
+.elemento img {
+	width:100%;
+  padding: 12px;
+  width: 300px;
+  height: 350px;
+  border-radius: 8%;
 } 
-
-
-    
-    
-  /* Style the search field */
-  form.example input[type=text] {
-    padding: 10px;
-    font-size: 17px;
-    border: 1px solid grey;
-    float: left;
-    width: 80%;
-    background: #f1f1f1;
-  }
-  
-  /* Style the submit button */
-  form.example button {
-    float: left;
-    width: 20%;
-    padding: 10px;
-    background: rgb(172, 165, 165);
-    color: white;
-    font-size: 17px;
-    border: 1px solid grey;
-    border-left: none; /* Prevent double borders */
-    cursor: pointer;
-  }
-  
-
-input[type=text] {
-    width: 100px;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
-  }
-  
-  /* When the input field gets focus, change its width to 100% */
-  input[type=text]:focus {
-    width: 100%;
-  }
+.column img{
+  padding: 40px;
+}
 
